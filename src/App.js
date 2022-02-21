@@ -1,40 +1,37 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+import { ChakraProvider, Box } from '@chakra-ui/react';
+import theme from './theme/theme.js';
+import Opening from './components/Opening.js';
+import Header from './layout/Header.js';
+import Hero from './layout/Hero.js';
+import SectionIntro from './layout/SectionIntro.js';
+import Section01 from './layout/Section01.js';
+import Section02 from './layout/Section02.js';
+import Section03 from './layout/Section03.js';
+import Footer from './layout/Footer.js';
+import { Element } from 'react-scroll';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
+      <Opening />
+      <Header />
+      <Box w="100%" overflow="hidden">
+        <Element name="hero" id="hero">
+          <Hero />
+        </Element>
       </Box>
+      <SectionIntro />
+      <Element name="section01" id="section01">
+        <Section01 />
+      </Element>
+      <Element name="section02" id="section02">
+        <Section02 />
+      </Element>
+      <Element name="section03" id="section03">
+        <Section03 />
+      </Element>
+      <Footer />
     </ChakraProvider>
   );
 }
