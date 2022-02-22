@@ -42,7 +42,12 @@ export default function Header() {
       zIndex="20"
       position="fixed"
     >
-      <Flex w="80%" maxW="1080px" justify="space-between" align="center">
+      <Flex
+        w={{ base: '100%', lg: '80%' }}
+        maxW="1080px"
+        justify="space-between"
+        align="center"
+      >
         <Fade in={!isActive}>
           <Link
             spy={true}
@@ -84,8 +89,8 @@ const MobileNav = () => {
         color="white"
       >
         <DrawerOverlay />
-        <DrawerContent bg="brand.500" color="white">
-          <DrawerCloseButton color="white" />
+        <DrawerContent bg="#EDEAD9" color="white">
+          <DrawerCloseButton color="black" />
 
           <DrawerBody pt="30%">
             <VStack spacing="20px">
@@ -98,7 +103,8 @@ const MobileNav = () => {
                 isExternal
               >
                 <HStack align="center" spacing="2px">
-                  <Text>淡水古蹟博物館</Text> <Icon as={MdFacebook} />
+                  <Text color="umi">淡水古蹟博物館</Text>
+                  <Icon color="umi" as={MdFacebook} />
                 </HStack>
               </Link>
             </VStack>
