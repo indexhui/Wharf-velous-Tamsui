@@ -33,13 +33,14 @@ const Hero = () => {
     >
       <Box position="absolute" w="100%" h="100%">
         <MotionImage
+          src={logo}
           position="absolute"
-          left={{ base: 0, lg: '10%' }}
+          left={{ base: 0, lg: '15%' }}
           right={{ base: 0, lg: '' }}
           margin={{ base: '0 auto', lg: 'unset' }}
-          top={{ base: '8vh', lg: '9vh', xl: '11%', '2xl': '20vh' }}
-          src={logo}
-          w={{ base: '280px', lg: '300px', xl: '400px', '2xl': '45vh' }}
+          top={{ base: '70px', lg: '9vh', xl: '10vh', '2xl': '18vh' }}
+          h={{ base: '180px', lg: 'auto' }}
+          w={{ base: '280px', lg: '300px', xl: '400px', '2xl': '55vh' }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: '1', duration: 1.5 }}
@@ -49,7 +50,7 @@ const Hero = () => {
           left={{ base: 0, lg: 'unset' }}
           right={{ base: 0, lg: '20%' }}
           margin={{ base: '0 auto', lg: 'unset' }}
-          top={{ base: '40vh', lg: '30vh' }}
+          top={{ base: '270px', lg: '30vh' }}
           src={heroText}
           w={{ base: '280px', lg: '300px', xl: '23vw' }}
           initial={{ opacity: 0 }}
@@ -61,7 +62,7 @@ const Hero = () => {
           position="absolute"
           w={{ base: '300px', lg: '500px' }}
           right={{ base: '2%', lg: '10%' }}
-          bottom={{ base: '220px', lg: '200px' }}
+          bottom={{ base: '240px', lg: '200px' }}
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: '1', duration: 2 }}
@@ -74,6 +75,7 @@ const Hero = () => {
             bottom="0"
             src={heroSun}
             w={{ base: '200px', lg: '380px' }}
+            h="auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: '1', duration: 3 }}
@@ -107,14 +109,14 @@ const Hero = () => {
           src={mountain}
           w="800px"
           position="absolute"
-          bottom={{ base: '240px', lg: '200px' }}
+          bottom={{ base: '250px', lg: '219px' }}
           right={{ base: '-50px', lg: '-180px' }}
         />
         <MotionImage
           src={leaf}
-          w={{ base: '100px', lg: '400px' }}
+          w={{ base: '100px', lg: '240px' }}
           position="absolute"
-          left={{ base: '-20px', lg: '10%' }}
+          left={{ base: '-20px', lg: '20%' }}
           bottom="220px"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

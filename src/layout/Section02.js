@@ -1,52 +1,70 @@
 import { Flex, Box, Heading, Text, Image } from '@chakra-ui/react';
-import useSpace from '../hooks/useSpace.js';
-// import title02 from '../assets/images/title02.svg';
+
+import title from '../assets/images/title/title02.svg';
 import ship02 from '../assets/images/hero/ship02.png';
+import ship04 from '../assets/images/hero/ship04.png';
 
 const Section02 = () => {
-  const { space } = useSpace();
   return (
     <Flex
       w="100%"
       justify="center"
       position="relative"
       bg="#FFFEF6"
-      py="72px"
+      py="60px"
       px="16px"
+      minH="400px"
+      bgGradient="linear(to-b, sun, #B0DEEA)"
+      // bgImage={`url('${coming}')`}
+      bgSize="cover"
+      direction="column"
+      align="center"
+      overflow="hidden"
     >
       <Image
         src={ship02}
+        w="200px"
+        h="auto"
+        display={['none', 'none', 'none', 'block']}
         position="absolute"
-        w="50vw"
-        maxW="300px"
-        bottom="20px"
-        right="30%"
-        opacity="0.1"
+        bottom="30%"
+        left="-30px"
       />
-
-      <Flex w={space} position="relative" direction="column" align="center">
-        <Heading color="sun">港動‧踏訪</Heading>
-        <Text
-          color="grey.800"
-          pt="20px"
-          maxW="400px"
-          fontWeight="600"
-          textAlign="center"
-        >
-          循著歷史中的印記，踏訪淡水河港人文景致，尋覓馬偕博士百年足跡。
-        </Text>
-        <Text
-          pt="20px"
-          fontSize="32px"
-          color="grey.500"
-          textAlign="center"
-          opacity=".8"
-          letterSpacing="2px"
-          fontWeight="800"
-        >
-          即將公布，敬啟期待
-        </Text>
-      </Flex>
+      <Image
+        src={ship04}
+        w={{ base: '80px', lg: '180px' }}
+        h="auto"
+        position="absolute"
+        bottom="3%"
+        right="80px"
+        display={['none', 'none', 'none', 'block']}
+      />
+      <Image src={title} h={{ base: '140px', lg: '280px' }} pb="30px" />
+      <Text
+        maxW="400px"
+        textAlign="center"
+        color="white"
+        fontWeight="700"
+        fontSize="20px"
+      >
+        循著歷史中的印記，踏訪淡水河港人文景致，
+        <br />
+        尋覓馬偕博士百年足跡。
+      </Text>
+      <Text
+        maxW="400px"
+        textAlign="center"
+        pt="30px"
+        color="#649FBD"
+        fontSize={{ base: '20px', lg: '40px' }}
+        fontWeight="bold"
+        lineHeight="40px"
+      >
+        敬啟期待
+      </Text>
+      <Text textAlign="center" color="#649FBD" fontSize="30px">
+        COMING SOON
+      </Text>
     </Flex>
   );
 };

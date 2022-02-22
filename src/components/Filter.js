@@ -1,5 +1,5 @@
 import { useEffect, useCallback } from 'react';
-import { HStack, Button, Text } from '@chakra-ui/react';
+import { HStack, Flex, Button, Text } from '@chakra-ui/react';
 
 import FilterButton from './FilterButton';
 
@@ -44,17 +44,19 @@ const Filter = props => {
   }, [handleFilter]);
 
   return (
-    <HStack py="40px">
-      {options.map(option => (
-        <FilterButton
-          key={option.value}
-          value={option.value}
-          label={option.label}
-          activeMonth={activeMonth}
-          setActiveMonth={setActiveMonth}
-        />
-      ))}
-    </HStack>
+    <Flex bg="#EEF0EF" w="100%" justify="center">
+      <HStack py="8px" spacing={{ base: 4, lg: 10 }}>
+        {options.map(option => (
+          <FilterButton
+            key={option.value}
+            value={option.value}
+            label={option.label}
+            activeMonth={activeMonth}
+            setActiveMonth={setActiveMonth}
+          />
+        ))}
+      </HStack>
+    </Flex>
   );
 };
 

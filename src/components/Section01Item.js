@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Flex, Grid, GridItem } from '@chakra-ui/react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import useSpace from '../hooks/useSpace.js';
 import CardActivity from './CardActivity';
 import Filter from './Filter';
 // import A1 from './section1Content/A1';
@@ -74,8 +75,8 @@ const activities = [
   {
     month: 5,
     time: '五月',
-    name: '關關PASS！淡水開港設關160周年特展開展。',
-    organizer: '',
+    name: '五月活動預告',
+    organizer: '關關PASS！淡水開港設關160周年特展開展。',
     location: '',
     image: a6,
     modal: <A7 />,
@@ -83,8 +84,8 @@ const activities = [
   {
     month: 6,
     time: '六月',
-    name: '古蹟文化國際論壇、基督長老教會淡水教會馬偕日相關活動。',
-    organizer: '',
+    name: '六月活動預告',
+    organizer: '古蹟文化國際論壇、基督長老教會淡水教會馬偕日相關活動。',
     location: '',
     image: a6,
     modal: <A8 />,
@@ -104,6 +105,7 @@ const MotionGrid = motion(Grid);
 const MotionGridItem = motion(GridItem);
 
 const Section01Item = () => {
+  const { space } = useSpace();
   const [filtered, setFiltered] = useState([]);
   const [activeMonth, setActiveMonth] = useState(0);
 
@@ -112,7 +114,7 @@ const Section01Item = () => {
   }, []);
 
   return (
-    <Flex direction="column" w="100%" px="16px" align="center">
+    <Flex direction="column" w="100%" align="center">
       <Filter
         activities={activities}
         setFiltered={setFiltered}
@@ -121,7 +123,10 @@ const Section01Item = () => {
       />
       <MotionGrid
         layout
-        w="100%"
+        w={space}
+        pt="30px"
+        pb="60px"
+        px={{ base: '20px', md: '30px' }}
         templateColumns={[
           'repeat(1, 1fr)',
           'repeat(2, 1fr)',

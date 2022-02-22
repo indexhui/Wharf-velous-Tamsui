@@ -46,9 +46,9 @@ function Footer() {
         <Flex w={{ base: '100%', md: '33.33%' }} direction="column" py="5px">
           <VStack spacing="20px" align="flex-start">
             <Box>
-              <Text color="grey.700">｜協辦單位｜</Text>
+              <Text color="grey.700">｜合辦單位｜</Text>
               <VStack pl="12px" spacing="4px" align="flex-start">
-                <Link href="https://www.ntpc.edu.tw/" isExternal>
+                <Link href="https://www.mackay.org.tw/" isExternal>
                   <Text>台灣基督長老教會淡水教會</Text>
                 </Link>
                 <Link href="https://www.ntpc.edu.tw/" isExternal>
@@ -78,8 +78,8 @@ function Footer() {
           </VStack>
         </Flex>
       </Flex>
-      <Text color="rgba(255,255,255,.5)" textAlign="center" px="20px" pb="20px">
-        © 2021 Tamsui Historical Museum Taiwan All rights reserved.
+      <Text color="rgba(0,0,0,.6)" textAlign="center" px="20px" pb="20px">
+        © 2022 Tamsui Historical Museum Taiwan All rights reserved.
       </Text>
     </Flex>
   );

@@ -10,6 +10,7 @@ import {
 import { motion } from 'framer-motion';
 import useSpace from '../hooks/useSpace.js';
 import CardDepartment from '../components/CardDepartment';
+import Section03Title from '../components/Section03title.js';
 
 import c1 from '../assets/images/C-1-1.jpeg';
 import c2 from '../assets/images/c-2.jpg';
@@ -27,7 +28,7 @@ const departments = [
   },
   {
     name: '新北市政府教育局',
-    fb: 'https://www.facebook.com/mackaychurchevents1/',
+    fb: 'https://www.facebook.com/ntpcedugov/',
     website: 'https://www.ntpc.edu.tw//',
     image: c2,
   },
@@ -51,61 +52,64 @@ const MotionGridItem = motion(GridItem);
 const Section03 = () => {
   const { space } = useSpace();
   return (
-    <Flex
-      w="100%"
-      justify="center"
-      py={{ base: '20px', md: '40px' }}
-      px="16px"
-      bgImage={`url('${leafs}')`}
-      bgSize="contain"
-      bgPosition="center"
-      bgRepeat="no-repeat"
-    >
+    <>
+      <Section03Title />
       <Flex
-        w={space}
-        direction="column"
-        align="center"
-        position="relative"
-        pt="100px"
+        w="100%"
+        justify="center"
+        py={{ base: '20px', md: '40px' }}
+        px="16px"
+        // bgImage={`url('${leafs}')`}
+        bgSize="contain"
+        bgPosition="center"
+        bgRepeat="no-repeat"
       >
-        <Heading color="sun">港動‧迴響</Heading>
-        <Text
-          textAlign="center"
-          py="12px"
-          fontSize="16px"
-          fontWeight="600"
-          letterSpacing="1.5px"
-          color="grey.800"
+        <Flex
+          w={space}
+          direction="column"
+          align="center"
+          position="relative"
+          pt="20px"
         >
-          探訪鄰近夥伴，欣賞淡水歷史迴響出的動人篇章。
-        </Text>
-        <MotionGrid
-          py="20px"
-          layout
-          w="100%"
-          templateColumns={[
-            'repeat(1, 1fr)',
-            'repeat(2, 1fr)',
-            'repeat(3, 1fr)',
-            'repeat(3, 1fr)',
-            'repeat(4, 1fr)',
-          ]}
-          gap={6}
-        >
-          {departments.map(department => (
-            <MotionGridItem
-              animate={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-              exit={{ opacity: 0 }}
-              layout
-              key={department.name}
-            >
-              <CardDepartment colSpan={1} {...department} />
-            </MotionGridItem>
-          ))}
-        </MotionGrid>
+          {/* <Heading color="sun">港動‧迴響</Heading>
+          <Text
+            textAlign="center"
+            py="12px"
+            fontSize="16px"
+            fontWeight="600"
+            letterSpacing="1.5px"
+            color="grey.800"
+          >
+            探訪鄰近夥伴，欣賞淡水歷史迴響出的動人篇章。
+          </Text> */}
+          <MotionGrid
+            py="20px"
+            layout
+            w="100%"
+            templateColumns={[
+              'repeat(1, 1fr)',
+              'repeat(2, 1fr)',
+              'repeat(3, 1fr)',
+              'repeat(3, 1fr)',
+              'repeat(4, 1fr)',
+            ]}
+            gap={6}
+          >
+            {departments.map(department => (
+              <MotionGridItem
+                animate={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                exit={{ opacity: 0 }}
+                layout
+                key={department.name}
+              >
+                <CardDepartment colSpan={1} {...department} />
+              </MotionGridItem>
+            ))}
+          </MotionGrid>
+        </Flex>
       </Flex>
-    </Flex>
+    </>
   );
 };
 
