@@ -1,5 +1,8 @@
 import { Flex, Box, Heading, Text, Image } from '@chakra-ui/react';
 
+import RevealOpacity from '../components/Reveal/RevealOpacity';
+import RevealTextUp from '../components/Reveal/RevealTextUp';
+
 import title from '../assets/images/title/title02.svg';
 import ship02 from '../assets/images/hero/ship02.png';
 import ship04 from '../assets/images/hero/ship04.png';
@@ -30,7 +33,7 @@ const Section02 = () => {
         bottom="30%"
         left="-30px"
       />
-      <Image
+      <RevealOpacity
         src={ship04}
         w={{ base: '80px', lg: '180px' }}
         h="auto"
@@ -39,8 +42,8 @@ const Section02 = () => {
         right="80px"
         display={['none', 'none', 'none', 'block']}
       />
-      <Image src={title} h={{ base: '140px', lg: '280px' }} pb="30px" />
-      <Text
+      <RevealOpacity src={title} h={{ base: '140px', lg: '280px' }} pb="30px" />
+      <RevealTextUp
         maxW="400px"
         textAlign="center"
         color="white"
@@ -50,7 +53,7 @@ const Section02 = () => {
         循著歷史中的印記，踏訪淡水河港人文景致，
         <br />
         尋覓馬偕博士百年足跡。
-      </Text>
+      </RevealTextUp>
       <Text
         maxW="400px"
         textAlign="center"

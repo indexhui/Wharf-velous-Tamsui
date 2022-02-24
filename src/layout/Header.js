@@ -50,6 +50,7 @@ export default function Header() {
       >
         <Fade in={!isActive}>
           <Link
+            offset={45}
             spy={true}
             hashSpy={true}
             as={ReachLink}

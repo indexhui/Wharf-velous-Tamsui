@@ -78,11 +78,11 @@ const Section01Title = () => {
           left={{ base: '0', lg: 'unset' }}
           top={{ base: '20px', lg: '0' }}
           h={{ base: '140px', lg: '280px' }}
-          custom={{
-            order: 0,
-            duration: 0.75,
-            y: 25,
-          }}
+          // custom={{
+          //   order: 0,
+          //   duration: 0.75,
+          //   y: 25,
+          // }}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.5 }}
