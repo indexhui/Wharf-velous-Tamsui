@@ -8,8 +8,8 @@ const FilterButton = props => {
     <Button
       rounded="full"
       shadow="sm"
-      borderWidth="2px"
-      px={{ base: '14px', lg: '20px' }}
+      borderWidth="1px"
+      px={{ base: '10px', lg: '20px' }}
       fontWeight="700"
       borderColor={isActive ? '#fff' : 'gray.300'}
       color={isActive ? 'white' : 'grey.800'}

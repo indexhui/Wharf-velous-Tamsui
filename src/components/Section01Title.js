@@ -102,8 +102,9 @@ const Section01Title = () => {
             variants={textVariants}
             transition={transition}
           >
-            乘著淡水河岸翻湧浪潮，以藝文與展演， <br />
-            映現出叱吒國際的貿易商港年代
+            3月起，以藝文展演活動，映現叱吒國際的淡水商港年代，
+            <br />
+            也認識馬偕博士上岸時的點滴故事。
           </MotionText>
         </Flex>
       </Flex>

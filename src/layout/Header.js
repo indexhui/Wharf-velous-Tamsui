@@ -174,15 +174,15 @@ const NavLink = props => {
 
 const navItems = [
   {
-    label: '港動‧映現',
+    label: '港動・映現',
     to: 'section01',
   },
   {
-    label: '港動‧踏訪',
+    label: '港動・踏訪',
     to: 'section02',
   },
   {
-    label: '港動‧迴響',
+    label: '港動・迴響',
     to: 'section03',
   },
   // {

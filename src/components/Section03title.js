@@ -140,7 +140,7 @@ const Section03Title = () => {
           variants={textVariants}
           transition={transition}
         >
-          探訪鄰近夥伴，欣賞淡水歷史迴響出的動人篇章。
+          探訪合作夥伴，欣賞淡水人文與歷史迴響的動人篇章。
         </MotionText>
       </Flex>
     </Flex>

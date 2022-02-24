@@ -14,12 +14,13 @@ import a3 from '../assets/images/A-3.png';
 import a4 from '../assets/images/A-4.png';
 import a5 from '../assets/images/A-5.png';
 import a6 from '../assets/images/A-6.png';
+import a7 from '../assets/images/A-7.jpg';
 
 const activities = [
   {
     month: 3,
     time: '3月12日 15:00',
-    name: '歡迎光臨1862淡水快閃',
+    name: '時光的邀請—歡響滬尾港快閃活動',
     organizer: '新北市立淡水古蹟博物館',
     location: '淡水限定快閃',
     introduction:
@@ -30,7 +31,7 @@ const activities = [
   {
     month: 3,
     time: '3月至7月',
-    name: '港動文化行旅',
+    name: '港動淡水文化行旅',
     organizer: '新北市立淡水古蹟博物館',
     location: '淡水地區',
     image: a2,
@@ -41,9 +42,18 @@ const activities = [
     name: '馬偕上陸淡水150週年故事牆',
     time: '即日起至112年1月',
     organizer: '台灣基督長老教會淡水教會',
-    location: '',
+    // location: '',
     image: a3,
     modal: <A3 />,
+  },
+  {
+    month: 3,
+    name: '「淡水開港160年特展」開幕式暨音樂會',
+    time: '即日起至112年1月',
+    organizer: '淡江大學資訊與圖書館學系、淡水維基館',
+    location: '淡江大學文錙音樂廳',
+    image: a7,
+    modal: <A7 />,
   },
   {
     month: 3,
@@ -71,6 +81,7 @@ const activities = [
     location: '',
     image: a6,
     modal: <A6 />,
+    isNotice: true,
   },
   {
     month: 5,
@@ -79,7 +90,7 @@ const activities = [
     organizer: '關關PASS！淡水開港設關160周年特展開展。',
     location: '',
     image: a6,
-    modal: <A7 />,
+    isNotice: true,
   },
   {
     month: 6,
@@ -89,15 +100,17 @@ const activities = [
     location: '',
     image: a6,
     modal: <A8 />,
+    isNotice: true,
   },
   {
     month: 7,
     time: '七月',
-    name: '下半年(至12月)將會有更多開港設關暨馬偕來臺精彩活動，敬請期待！',
-    organizer: '',
+    name: '七月活動預告',
+    organizer: '下半年(至12月)將會有更多開港設關暨馬偕來臺精彩活動，敬請期待！',
     location: '',
     image: a6,
     modal: <A9 />,
+    isNotice: true,
   },
 ];
 

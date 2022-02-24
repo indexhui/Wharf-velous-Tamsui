@@ -20,6 +20,14 @@ const options = [
     value: 5,
     label: '五月',
   },
+  {
+    value: 6,
+    label: '六月',
+  },
+  {
+    value: 7,
+    label: '七月',
+  },
 ];
 
 const Filter = props => {
@@ -45,7 +53,7 @@ const Filter = props => {
 
   return (
     <Flex bg="#EEF0EF" w="100%" justify="center">
-      <HStack py="8px" spacing={{ base: 4, lg: 10 }}>
+      <HStack py="8px" spacing={{ base: 1, lg: 10 }}>
         {options.map(option => (
           <FilterButton
             key={option.value}

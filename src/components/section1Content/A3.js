@@ -29,7 +29,7 @@ export const A3 = () => {
         fontWeight="600"
         color="umi"
         isExternal
-        href="https://www.facebook.com/mackaychurchevents1/)"
+        href="https://www.facebook.com/mackaychurchevents1/"
       >
         臉書專頁
       </Link>

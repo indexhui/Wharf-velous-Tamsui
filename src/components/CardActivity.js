@@ -1,4 +1,4 @@
-import { Flex, AspectRatio, Image, Text, propNames } from '@chakra-ui/react';
+import { Flex, AspectRatio, Image, Text } from '@chakra-ui/react';
 
 import ModalCard from './ModalCard';
 
@@ -8,7 +8,12 @@ const CardActivity = props => {
       <AspectRatio w="100%" ratio={4 / 3}>
         <Image src={props.image} objectFit="cover" />
       </AspectRatio>
-      <Flex w="100%" bg="sun" direction="column" flex="1">
+      <Flex
+        w="100%"
+        bg={props.isNotice ? 'sky' : 'sun'}
+        direction="column"
+        flex="1"
+      >
         <Flex
           w="100%"
           bg="white"
@@ -43,7 +48,15 @@ const CardActivity = props => {
             align="flex-end"
             fontWeight="700"
           >
-            <ModalCard modal={props.modal} />
+            {props.isNotice ? (
+              <Text color="grey.600" py="5px" fontWeight="500">
+                敬請期待
+              </Text>
+            ) : (
+              <ModalCard modal={props.modal} location={props.location} />
+            )}
+            {/* <ModalCard modal={props.modal} />
+            <Text>敬請期待</Text> */}
           </Flex>
         </Flex>
       </Flex>

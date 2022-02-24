@@ -45,7 +45,7 @@ const CardDepartment = props => {
               </Link>
               <Link href={props.fb} isExternal>
                 <Flex align="center">
-                  <Icon as={MdFacebook} /> <Text>粉專</Text>
+                  <Icon as={MdFacebook} /> <Text>臉書專頁</Text>
                 </Flex>
               </Link>
               <Text color="grey.700" fontSize="13px">
