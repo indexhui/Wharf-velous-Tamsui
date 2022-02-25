@@ -14,7 +14,7 @@ const Section02 = () => {
       justify="center"
       position="relative"
       bg="#FFFEF6"
-      py="60px"
+      py="80px"
       px="16px"
       minH="400px"
       bgGradient="linear(to-b, sun, #B0DEEA)"
@@ -63,7 +63,7 @@ const Section02 = () => {
         fontWeight="bold"
         lineHeight="40px"
       >
-        敬啟期待
+        敬請期待
       </Text>
       <Text textAlign="center" color="#649FBD" fontSize="30px">
         COMING SOON

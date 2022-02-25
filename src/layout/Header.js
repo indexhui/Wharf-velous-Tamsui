@@ -23,7 +23,7 @@ import { Link as ReachLink, animateScroll as scroll } from 'react-scroll';
 
 import { useState } from 'react';
 
-import logotype from '../assets/images/logo.svg';
+import logotype from '../assets/images/logo_pure.svg';
 
 export default function Header() {
   const [isActive, setIsActive] = useState(true);
@@ -50,7 +50,7 @@ export default function Header() {
       >
         <Fade in={!isActive}>
           <Link
-            offset={45}
+            offset={60}
             spy={true}
             hashSpy={true}
             as={ReachLink}

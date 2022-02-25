@@ -5,6 +5,7 @@ import title from '../assets/images/title/title03.svg';
 import leaf01 from '../assets/images/leaf01.svg';
 import leaf02 from '../assets/images/leaf02.svg';
 import leaf03 from '../assets/images/leaf03.svg';
+import wave from '../assets/images/wave_03.png';
 
 const MotionImage = motion(Image);
 const MotionText = motion(Text);
@@ -48,6 +49,20 @@ const Section03Title = () => {
       px="16px"
     >
       <MotionImage
+        zIndex="1"
+        src={wave}
+        position="absolute"
+        left="-10px"
+        top="0"
+        h={{ base: '100%', lg: '100%' }}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.5 }}
+        variants={titleVariants}
+        transition={transition}
+      />
+      <MotionImage
+        zIndex="2"
         src={leaf01}
         position="absolute"
         left="-20px"
