@@ -49,7 +49,7 @@ const activities = [
   {
     month: 3,
     name: '「淡水開港160年特展」開幕式暨音樂會',
-    time: '即日起至112年1月',
+    time: '3月7日辦理',
     organizer: '淡江大學資訊與圖書館學系、淡水維基館',
     location: '淡江大學文錙音樂廳',
     image: a7,
@@ -85,7 +85,7 @@ const activities = [
   },
   {
     month: 5,
-    time: '五月',
+    time: '',
     name: '五月活動預告',
     organizer: '關關PASS！淡水開港設關160周年特展開展。',
     location: '',
@@ -94,7 +94,7 @@ const activities = [
   },
   {
     month: 6,
-    time: '六月',
+    time: '',
     name: '六月活動預告',
     organizer: '古蹟文化國際論壇、基督長老教會淡水教會馬偕日相關活動。',
     location: '',
@@ -104,7 +104,7 @@ const activities = [
   },
   {
     month: 7,
-    time: '七月',
+    time: '',
     name: '七月活動預告',
     organizer: '下半年(至12月)將會有更多開港設關暨馬偕來臺精彩活動，敬請期待！',
     location: '',

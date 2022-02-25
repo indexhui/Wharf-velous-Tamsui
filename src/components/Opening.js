@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Flex, Image } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
-import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/logo_pure.svg';
 const MotionFlex = motion(Flex);
 const MotionImage = motion(Image);
 const Opening = () => {

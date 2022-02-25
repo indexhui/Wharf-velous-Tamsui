@@ -51,20 +51,20 @@ function Footer() {
                 <Link href="https://www.mackay.org.tw/" isExternal>
                   <Text>台灣基督長老教會淡水教會</Text>
                 </Link>
-                <Link href="https://www.ntpc.edu.tw/" isExternal>
-                  <Text>新北市政府教育局</Text>
-                </Link>
                 <Link href="https://www.tamsui.ntpc.gov.tw/" isExternal>
                   <Text>淡水區公所</Text>
-                </Link>
-                <Link href="https://www.library.ntpc.gov.tw/" isExternal>
-                  <Text>新北市立圖書館淡水分館</Text>
                 </Link>
                 <Link href="https://www.dils.tku.edu.tw/" isExternal>
                   <Text>淡江大學資訊與圖書館學系</Text>
                 </Link>
                 <Link href="http://www.history.tku.edu.tw/" isExternal>
-                  <Text>淡江大學歷史系</Text>
+                  <Text>淡江大學歷史學系</Text>
+                </Link>
+                <Link href="https://www.library.ntpc.gov.tw/" isExternal>
+                  <Text>新北市立圖書館淡水分館</Text>
+                </Link>
+                <Link href="https://www.ntpc.edu.tw/" isExternal>
+                  <Text>新北市政府教育局</Text>
                 </Link>
               </VStack>
             </Box>
