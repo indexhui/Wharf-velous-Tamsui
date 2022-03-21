@@ -39,9 +39,26 @@ const Filter = props => {
         setFiltered(activities);
         return;
       }
-      const filter = activities.filter(
-        activity => activity.month === activeMonth
+
+      // TODO: 月份為範圍
+
+      const isActiveMonth = item => {
+        if (activeMonth === item) {
+          return true;
+        } else if (Array.isArray(item)) {
+          return item.includes(activeMonth);
+        }
+        return false;
+      };
+
+      // const filter = activities.filter(
+      //   activity => activity.month === activeMonth || activity.month.isArray
+      // );
+
+      const filter = activities.filter(activity =>
+        isActiveMonth(activity.month)
       );
+
       setFiltered(filter);
     };
     handlingFilter();

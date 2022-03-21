@@ -76,6 +76,12 @@ function Footer() {
             <Box>
               <Text color="grey.700">｜協辦單位｜</Text>
               <VStack pl="12px" spacing="4px" align="flex-start">
+                <Link
+                  href="https://www.international.gc.ca/world-monde/taiwan/taipei.aspx?lang=zho"
+                  isExternal
+                >
+                  <Text>加拿大駐臺北貿易辦事處</Text>
+                </Link>
                 <Link href="https://ntccf.org/" isExternal>
                   <Text>新北市文化基金會</Text>
                 </Link>
