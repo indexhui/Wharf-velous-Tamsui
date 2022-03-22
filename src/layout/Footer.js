@@ -66,6 +66,7 @@ function Footer() {
                 <Link href="https://www.ntpc.edu.tw/" isExternal>
                   <Text>新北市政府教育局</Text>
                 </Link>
+                <Text>新北市各級學校</Text>
               </VStack>
             </Box>
           </VStack>

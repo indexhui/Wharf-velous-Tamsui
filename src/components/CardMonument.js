@@ -28,6 +28,7 @@ const CardMonument = props => {
           isHistory
           themeColor={theme || 'umi'}
           history={history}
+          {...props}
         />
         <MonumentCardModal
           address={address}

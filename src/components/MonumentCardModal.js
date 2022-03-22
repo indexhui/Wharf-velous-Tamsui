@@ -18,7 +18,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const MonumentCardModal = props => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { isHistory, themeColor } = props;
+  const { isHistory, themeColor, theme } = props;
   return (
     <>
       <Button
@@ -38,7 +38,7 @@ const MonumentCardModal = props => {
       </Button>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-        <ModalContent bg="umi" color="white">
+        <ModalContent bg={theme || 'umi'} color="white">
           <ModalHeader> {isHistory ? '歷史介紹' : '參觀資訊'}</ModalHeader>
           <ModalBody>
             {isHistory && props.history}
@@ -109,8 +109,8 @@ const MonumentCardModal = props => {
             {props.modal} */}
           </ModalBody>
 
-          <ModalFooter>
-            <Button mr={3} onClick={onClose} bg="grey.800">
+          <ModalFooter display="flex" justifyContent="center">
+            <Button mr={3} onClick={onClose} bg="white" color={theme || 'umi'}>
               Close
             </Button>
           </ModalFooter>
