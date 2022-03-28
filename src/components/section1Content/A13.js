@@ -10,7 +10,7 @@ export const A13 = () => {
         fontWeight="600"
         color="umi"
         isExternal
-        href="https://www.tshs.ntpc.gov.tw/xceventsnews?xsmsid=0G252620780150430418"
+        href="https://www.tshs.ntpc.gov.tw/xceventsnews/cont?xsmsid=0G252620780150430418&sid=0M073382318838233771"
       >
         詳細資訊請洽活動網頁
       </Link>

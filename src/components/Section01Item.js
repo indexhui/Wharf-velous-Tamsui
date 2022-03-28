@@ -97,6 +97,7 @@ const activities = [
   {
     month: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     name: '港動淡水－LINE原創貼圖',
+    organizer: '新北市立淡水古蹟博物館',
     time: '3月起',
     location: '線上活動',
     image: a8,
@@ -106,6 +107,7 @@ const activities = [
   {
     month: 3,
     name: '淡水開港好禮戳戳樂',
+    organizer: '新北市立淡水古蹟博物館',
     time: '3月12日至3月31日',
     location: '淡水海關碼頭、得忌利士洋行、淡水紅毛城、小白宮',
     image: a9,
@@ -114,6 +116,7 @@ const activities = [
   {
     month: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     name: '《淡古大對決》、《淡水開港一百六十年》影片播映',
+    organizer: '新北市立淡水古蹟博物館',
     time: '每日開館時間輪播放映',
     location: '得忌利士洋行三角屋',
     image: a10,
@@ -122,6 +125,7 @@ const activities = [
 
   {
     month: 4,
+    organizer: '新北市立淡水古蹟博物館',
     name: '海賊家族─淡水開港鐳戰賽',
     time: '4月4日 9:00、11:00',
     location: '淡水海關碼頭',
@@ -130,6 +134,7 @@ const activities = [
   },
   {
     month: 4,
+    organizer: '新北市立淡水古蹟博物館',
     name: '淡水開港設關故事派對─歡迎光臨1862',
     time: '4月2日、4月9日、4月23日、4月30日 16:30',
     location: '淡水海關碼頭',

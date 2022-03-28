@@ -30,7 +30,7 @@ import b11 from '../assets/images/monument/B11.jpg';
 import b12 from '../assets/images/monument/B12.jpg';
 import b13 from '../assets/images/monument/B13.jpg';
 import b14 from '../assets/images/monument/B14.jpg';
-import b15 from '../assets/images/monument/B15.JPG';
+import b15 from '../assets/images/monument/B15.jpg';
 import b16 from '../assets/images/monument/B16.JPG';
 import b17 from '../assets/images/monument/B17.JPG';
 import b18 from '../assets/images/monument/B18.jpg';
@@ -50,45 +50,45 @@ const tamsuiMonuments = [
   {
     name: '淡水海關碼頭',
     history:
-      '為辦理淡水開港業務，英國租借紅毛城作為英國領事館，負責來臺僑民簽證、管理及權益維護。1877年起於領事館東側增建領事官邸，作為生活居所。',
-    address: '新北市淡水區中正路28巷1號',
-    googleMap: 'https://goo.gl/maps/zVZcgLe187G2',
+      '淡水開港通商，設立由外籍稅務司管理的海關，辦理船隻進出口關務及貿易稅收。淡水海關碼頭原為沙岸港埠，1901年起逐漸完工今日所見的石造碼頭區。',
+    address: '新北市淡水區中正路259號',
+    googleMap: 'https://goo.gl/maps/fH3rGLQnND42',
     image: b2,
     link: 'https://www.tshs.ntpc.gov.tw/xmdoc/cont?xsmsid=0G245643771715011728',
   },
   {
     name: '前清淡水關稅務司官邸',
     history:
-      '為辦理淡水開港業務，英國租借紅毛城作為英國領事館，負責來臺僑民簽證、管理及權益維護。1877年起於領事館東側增建領事官邸，作為生活居所。',
-    address: '新北市淡水區中正路28巷1號',
-    googleMap: 'https://goo.gl/maps/zVZcgLe187G2',
+      '淡水設立新式海關所聘用的外籍稅務人員，多居住建於砲臺埔的三棟宿舍，這三棟洋樓被在地居民稱作「埔頂三塊厝」，目前僅存「小白宮」。',
+    address: '新北市淡水區真理街15號',
+    googleMap: 'https://goo.gl/maps/ZVGeQ75csgT2',
     image: b3,
     link: 'https://www.tshs.ntpc.gov.tw/xmdoc/cont?xsmsid=0G245643771715011728',
   },
   {
     name: '得忌利士洋行',
     history:
-      '為辦理淡水開港業務，英國租借紅毛城作為英國領事館，負責來臺僑民簽證、管理及權益維護。1877年起於領事館東側增建領事官邸，作為生活居所。',
-    address: '新北市淡水區中正路28巷1號',
-    googleMap: 'https://goo.gl/maps/zVZcgLe187G2',
+      '19世紀末，淡水烽火段前的河水深度尚可停泊大型船隻，得忌利士洋行在此擁有可停泊各種輪船的碼頭，除了進出口貿易，也經營航運事業，曾寡占臺灣航運三十多年。今日僅存第一檢查場及輸入品倉庫。',
+    address: '新北市淡水區中正路316、316-1號',
+    googleMap: 'https://goo.gl/maps/nkCKvg57mnN2',
     image: b4,
     link: 'https://www.tshs.ntpc.gov.tw/xmdoc/cont?xsmsid=0G245643771715011728',
   },
   {
     name: '英商嘉士洋行倉庫',
     history:
-      '為辦理淡水開港業務，英國租借紅毛城作為英國領事館，負責來臺僑民簽證、管理及權益維護。1877年起於領事館東側增建領事官邸，作為生活居所。',
-    address: '新北市淡水區中正路28巷1號',
-    googleMap: 'https://goo.gl/maps/zVZcgLe187G2',
+      '由英商范嘉士(Francis Cass)所建的嘉士洋行倉庫，易主殼牌公司後，在此建立三座油槽存放油類，因氣味濃厚被稱作「臭油棧」。二次世界大戰曾被美軍空襲，引發「火燒臭油棧」事件。',
+    address: '新北市淡水區鼻頭街22號',
+    googleMap: '(https://goo.gl/maps/Y2wq7aAduoCa9XSe8',
     image: b5,
     outLink: 'http://www.tamsui.org.tw/',
   },
   {
     name: '淡水外僑墓園',
     history:
-      '為辦理淡水開港業務，英國租借紅毛城作為英國領事館，負責來臺僑民簽證、管理及權益維護。1877年起於領事館東側增建領事官邸，作為生活居所。',
-    address: '新北市淡水區中正路28巷1號',
-    googleMap: 'https://goo.gl/maps/zVZcgLe187G2',
+      '淡水成為國際商港，吸引各國商人前來貿易，因疾病等因素客死淡水的外國人，便葬於淡水外僑墓園。第一座墳墓於1867年下葬，1870年起正式由英國領事館管理，直至1972年為止。今由加僑協會和淡江中學共同維護。',
+    address: '新北市淡水區真理街26號',
+    googleMap: 'https://goo.gl/maps/Tu7G6DZ87Kns8voV9',
     image: b6,
     openInfo: '位於淡江中學校區，無對外開放',
   },
@@ -138,13 +138,14 @@ const mackayMonuments = [
       '馬偕在臺傳教工作受原鄉加拿大牛津郡肯定，獲得的捐款於1881年建立全臺第一所現代化學校「理學堂大書院(牛津學堂，Oxford College)」，教授神學與聖經、社會科學、自然科學、醫學理論及臨床實習等。',
     address: '新北市淡水區真理街32號',
     googleMap: 'https://goo.gl/maps/KsUZWag5JgZU4RkC6',
+    outLink: 'https://www.facebook.com/MackayHouse1875/',
   },
   {
     name: '馬偕故居',
     history:
       '馬偕於1875年親自設計督工的個人居所，為具迴廊設計的西班牙式白堊洋樓。1965年真理大學創校後改為圖書館等校舍使用，目前以「馬偕紀念館」開放參觀。',
     address: '新北市淡水區真理街4巷2號',
-    googleMap: '(https://goo.gl/maps/Yz23ppgTejMugRLo6',
+    googleMap: 'https://goo.gl/maps/F1LbSnSYK832m3y66',
     outLink: 'https://www.facebook.com/MackayHouse1875/',
     image: b15,
   },
@@ -153,7 +154,7 @@ const mackayMonuments = [
     history:
       '馬偕因為喉癌於1901年6月2日辭世，葬在與淡水外僑墓園一牆分隔的土地。1925年其妻子張聰明逝世，同樣葬於此地，此後逐漸形成馬偕家族、嫡系學生之家族墓園。',
     address: '新北市淡水區真理街26號',
-    googleMap: 'https://goo.gl/maps/Tu7G6DZ87Kns8voV9',
+    googleMap: 'https://goo.gl/maps/ENccvfu1Df8Rk6Hz8',
     openInfo: '位於淡江中學校區，無對外開放',
     image: b16,
   },
@@ -163,6 +164,7 @@ const mackayMonuments = [
       '加拿大宣教士吳威廉設計督工，為二棟迴廊式紅磚洋樓。姑娘樓作為女宣教士宿舍，牧師樓作為吳牧師及後續服務之男宣教士宿舍，至1965年因真理大學創校所需改作校舍使用。',
     address: '新北市淡水區真理街32號',
     googleMap: 'https://goo.gl/maps/KXeMcx2YGW5GLtTu7',
+    openInfo: '位於淡江中學校區，無對外開放',
     image: b17,
   },
   {

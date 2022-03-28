@@ -71,7 +71,7 @@ const MonumentCardModal = props => {
                       textAlign="right"
                       fontSize="18px"
                     >
-                      詳見淡水古蹟官網
+                      詳見淡水古蹟博物館官網
                     </Link>
                   </Flex>
                 )}
@@ -94,7 +94,7 @@ const MonumentCardModal = props => {
                 )}
 
                 {props.openInfo && (
-                  <Text fontSize="18px" flex="1" pt="20px">
+                  <Text fontSize="18px" flex="1" pt="20px" textAlign="right">
                     {props.openInfo}
                   </Text>
                 )}
