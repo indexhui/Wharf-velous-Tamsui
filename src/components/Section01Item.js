@@ -21,6 +21,11 @@ import {
   A12,
   A13,
   A14,
+  A15,
+  A16,
+  A17,
+  A18,
+  A19,
 } from './section1Content';
 
 import a1 from '../assets/images/A1.jpeg';
@@ -36,6 +41,10 @@ import a9 from '../assets/images/A9.jpg';
 import a10 from '../assets/images/A10.jpg';
 import a11 from '../assets/images/A11.jpg';
 import a12 from '../assets/images/A12.jpeg';
+import a13 from '../assets/images/A13.jpg';
+import a14 from '../assets/images/A14.jpg';
+import a16 from '../assets/images/A16.jpg';
+import a17 from '../assets/images/A17.jpg';
 
 const activities = [
   {
@@ -151,14 +160,59 @@ const activities = [
   //   modal: <A6 />,
   //   isNotice: true,
   // },
+  // {
+  //   month: 5,
+  //   time: '',
+  //   name: '五月活動預告',
+  //   organizer: '關關PASS！淡水開港設關160周年特展開展。',
+  //   location: '',
+  //   image: a6,
+  //   isNotice: true,
+  // },
+  {
+    month: [4, 5, 6],
+    name: '新北市111年度港動淡水-國際小學堂競賽',
+    organizer: '新北市政府教育局',
+    location: '鄧公國小',
+    modal: <A15 />,
+    image: a13,
+  },
   {
     month: 5,
-    time: '',
-    name: '五月活動預告',
-    organizer: '關關PASS！淡水開港設關160周年特展開展。',
-    location: '',
+    name: '淡水區國中小美術班古蹟之美寫生比賽及聯展',
+    organizer:
+      '新北市立淡水古蹟博物館、新北市立淡水國民中學、新北市淡水區淡水國民小學',
+    time: '5月5日-5月25日 每日開館時間',
+    location: '淡水海關碼頭B棟倉庫',
+    modal: <A16 />,
+    image: a14,
+  },
+  {
+    month: [5, 6, 7, 8, 9, 10],
+    name: '關關PASS！─淡水開港設關160周年特展',
+    organizer: '新北市立淡水古蹟博物館',
+    time: '5月7日起 每日開館時間',
+    location: '淡水海關碼頭B棟倉庫',
+    modal: <A17 />,
     image: a6,
-    isNotice: true,
+  },
+  {
+    month: [5, 6, 7, 8, 9, 10],
+    name: '滬尾講堂',
+    organizer: '新北市立淡水古蹟博物館',
+    time: '5月21日、6月25日、7月16日、8月20日、9月17日  、10月15日,1400-16:00',
+    location: '淡水海關碼頭、淡水木下靜涯舊居',
+    modal: <A18 />,
+    image: a16,
+  },
+  {
+    month: 5,
+    name: '港動淡水─程氏古厝淡水茶文化體驗講座',
+    organizer: '新北市淡水休閒農業協會',
+    time: '5月22日 14:00、5月28日 14:00',
+    location: '公司田溪程氏古厝',
+    modal: <A19 />,
+    image: a17,
   },
   {
     month: 6,

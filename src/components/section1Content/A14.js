@@ -13,14 +13,15 @@ export const A14 = () => {
       <Text>
         ※入場方式：可自由入場觀賞，每場另提供10席報名制首排尊榮席次，可於最前排觀賞表演（另贈送本館精美文創品1份）。
       </Text>
-      <Link
+      <Text>活動已結束。</Text>
+      {/* <Link
         fontWeight="600"
         color="umi"
         isExternal
         href="https://www.tshs.ntpc.gov.tw/xceventsnews/cont?xsmsid=0G252620780150430418&bdate=2022-03-07&disp=2&sid=0M052501085097875375"
       >
         詳細資訊及VIP席報名連結請洽活動網頁
-      </Link>
+      </Link> */}
     </>
   );
 };

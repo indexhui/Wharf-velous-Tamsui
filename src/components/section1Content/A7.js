@@ -15,7 +15,7 @@ export const A7 = () => {
       >
         淡水維基館臉書專頁
       </Link>
-      <span px="10px"> 或 </span>
+      {/* <span px="10px"> 或 </span>
       <Link
         fontWeight="600"
         color="umi"
@@ -23,7 +23,7 @@ export const A7 = () => {
         href="https://enroll.tku.edu.tw/course.aspx?cid=TABX20220307"
       >
         活動網頁
-      </Link>
+      </Link> */}
     </>
   );
 };

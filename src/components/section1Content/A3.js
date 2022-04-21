@@ -15,6 +15,14 @@ export const A3 = () => {
       >
         故事牆介紹影片
       </Link>
+      <Link
+        fontWeight="600"
+        color="umi"
+        isExternal
+        href="https://www.youtube.com/watch?v=khxlvqfsDSI"
+      >
+        淡水教會設教150週年宣傳影片
+      </Link>
       <Text>相關詳情請洽辦理單位</Text>
       <Link
         fontWeight="600"
