@@ -71,7 +71,6 @@ function Footer() {
             </Box>
           </VStack>
         </Flex>
-
         <Flex w={{ base: '100%', md: '33.33%' }} direction="column" py="5px">
           <VStack spacing="20px" align="flex-start">
             <Box>
