@@ -83,7 +83,7 @@ function Footer() {
                   <Text>加拿大駐臺北貿易辦事處</Text>
                 </Link>
                 <Link href="https://www.nlot.org.tw/index_zh.html" isExternal>
-                  <Text>加拿大駐臺北貿易辦事處</Text>
+                  <Text>荷蘭在台辦事處</Text>
                 </Link>
                 <Link href="https://ntccf.org/" isExternal>
                   <Text>新北市文化基金會</Text>
