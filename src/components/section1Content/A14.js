@@ -13,7 +13,7 @@ export const A14 = () => {
       <Text>
         ※入場方式：可自由入場觀賞，每場另提供10席報名制首排尊榮席次，可於最前排觀賞表演（另贈送本館精美文創品1份）。
       </Text>
-      <Text>活動已結束。</Text>
+      <Text>※活動已結束※</Text>
       {/* <Link
         fontWeight="600"
         color="umi"

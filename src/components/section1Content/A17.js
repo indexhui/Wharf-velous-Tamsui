@@ -9,7 +9,12 @@ export const A17 = () => {
 
       <Text>詳細資訊請洽</Text>
 
-      <Link fontWeight="600" color="umi" isExternal href="">
+      <Link
+        fontWeight="600"
+        color="umi"
+        isExternal
+        href="https://www.tshs.ntpc.gov.tw/xmdoc/cont?xsmsid=0G245656224351531469&sid=0M116568283070148490"
+      >
         活動網頁
       </Link>
     </>

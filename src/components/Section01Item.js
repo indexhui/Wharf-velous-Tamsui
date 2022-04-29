@@ -46,6 +46,7 @@ import a11 from '../assets/images/A11.jpg';
 import a12 from '../assets/images/A12.jpeg';
 import a13 from '../assets/images/A13.jpg';
 import a14 from '../assets/images/A14.jpg';
+import a15 from '../assets/images/A15.jpg';
 import a16 from '../assets/images/A16.jpg';
 import a17 from '../assets/images/A17.jpg';
 import a19 from '../assets/images/A19.jpg';
@@ -197,7 +198,7 @@ const activities = [
     month: [5, 6, 7, 8, 9, 10],
     name: '「臺灣女婿馬偕斜槓家族」特展',
     organizer: '新北市立淡水古蹟博物館',
-    time: '111年5月7日起至12月15日   每日開館時間',
+    time: '5月7日-12月15日 每日開館時間',
     location: '淡水海關碼頭A棟倉庫',
     modal: <A20 />,
     image: a20,
@@ -207,9 +208,9 @@ const activities = [
     name: '關關PASS！─淡水開港設關160周年特展',
     organizer: '新北市立淡水古蹟博物館',
     time: '5月7日起 每日開館時間',
-    location: '淡水海關碼頭B棟倉庫',
+    location: '淡水海關碼頭C棟倉庫',
     modal: <A17 />,
-    image: a6,
+    image: a15,
   },
   {
     month: [5, 6, 7, 8, 9, 10],
