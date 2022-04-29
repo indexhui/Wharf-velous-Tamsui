@@ -26,6 +26,9 @@ import {
   A17,
   A18,
   A19,
+  A20,
+  A21,
+  A22,
 } from './section1Content';
 
 import a1 from '../assets/images/A1.jpeg';
@@ -45,6 +48,8 @@ import a13 from '../assets/images/A13.jpg';
 import a14 from '../assets/images/A14.jpg';
 import a16 from '../assets/images/A16.jpg';
 import a17 from '../assets/images/A17.jpg';
+import a19 from '../assets/images/A19.jpg';
+import a20 from '../assets/images/A20.jpg';
 
 const activities = [
   {
@@ -173,7 +178,8 @@ const activities = [
     month: [4, 5, 6],
     name: '新北市111年度港動淡水-國際小學堂競賽',
     organizer: '新北市政府教育局',
-    location: '鄧公國小',
+    time: '邀您一起國際遊學，認識淡水歷史古蹟。',
+    location: '競賽地點：鄧公國小',
     modal: <A15 />,
     image: a13,
   },
@@ -182,10 +188,19 @@ const activities = [
     name: '淡水區國中小美術班古蹟之美寫生比賽及聯展',
     organizer:
       '新北市立淡水古蹟博物館、新北市立淡水國民中學、新北市淡水區淡水國民小學',
-    time: '5月5日-5月25日 每日開館時間',
+    time: '5月5日-5月24日 每日開館時間',
     location: '淡水海關碼頭B棟倉庫',
     modal: <A16 />,
     image: a14,
+  },
+  {
+    month: [5, 6, 7, 8, 9, 10],
+    name: '「臺灣女婿馬偕斜槓家族」特展',
+    organizer: '新北市立淡水古蹟博物館',
+    time: '111年5月7日起至12月15日   每日開館時間',
+    location: '淡水海關碼頭A棟倉庫',
+    modal: <A20 />,
+    image: a20,
   },
   {
     month: [5, 6, 7, 8, 9, 10],
@@ -216,14 +231,34 @@ const activities = [
   },
   {
     month: 6,
-    time: '',
-    name: '六月活動預告',
-    organizer: '古蹟文化國際論壇、基督長老教會淡水教會馬偕日相關活動。',
-    location: '',
+    time: '6月16日、6月17日',
+    name: '第一屆古蹟文化國際論壇',
+    organizer: '新北市立淡水古蹟博物館',
+    location: '淡江大學有蓮國際會議廳',
     image: a6,
-    modal: <A8 />,
-    isNotice: true,
+    modal: <A21 />,
+    // isNotice: true,
   },
+  {
+    month: 5,
+    time: '5/9-5/29 開館時間,5/21（六）、5/22（日）14:00-16:00',
+    name: '2022 異人茶金 淡水茶旅學',
+    organizer: '新北市立圖書館淡水分館',
+    location: '淡江大學有蓮國際會議廳',
+    image: a19,
+    modal: <A22 />,
+    // isNotice: true,
+  },
+  // {
+  //   month: 6,
+  //   time: '',
+  //   name: '六月活動預告',
+  //   organizer: '古蹟文化國際論壇、基督長老教會淡水教會馬偕日相關活動。',
+  //   location: '',
+  //   image: a6,
+  //   modal: <A8 />,
+  //   isNotice: true,
+  // },
   {
     month: 7,
     time: '',

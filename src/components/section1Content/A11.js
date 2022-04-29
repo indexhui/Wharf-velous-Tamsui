@@ -6,7 +6,7 @@ export const A11 = () => {
       <Text>
         凡購買「港動淡水─LINE原創貼圖」、並於本館FB按讚者，可任選於淡水海關碼頭、得忌利士洋行、紅毛城或小白宮，參加戳戳樂。
       </Text>
-      <Text>活動已結束</Text>
+      <Text>※活動已結束※</Text>
       {/* <Link
         fontWeight="600"
         color="umi"

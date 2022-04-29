@@ -9,7 +9,12 @@ export const A16 = () => {
 
       <Text>詳細資訊請洽</Text>
 
-      <Link fontWeight="600" color="umi" isExternal href="">
+      <Link
+        fontWeight="600"
+        color="umi"
+        isExternal
+        href="https://www.tshs.ntpc.gov.tw/xceventsnews/cont?xsmsid=0G252620780150430418&sid=0M116509221081521982"
+      >
         活動網頁
       </Link>
     </>
