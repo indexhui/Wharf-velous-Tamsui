@@ -245,7 +245,7 @@ const activities = [
     time: '5/9-5/29 開館時間,5/21（六）、5/22（日）14:00-16:00',
     name: '2022 異人茶金 淡水茶旅學',
     organizer: '新北市立圖書館淡水分館',
-    location: '淡江大學有蓮國際會議廳',
+    location: '新北市立圖書館淡水分館',
     image: a19,
     modal: <A22 />,
     // isNotice: true,
