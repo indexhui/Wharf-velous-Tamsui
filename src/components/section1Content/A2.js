@@ -12,6 +12,7 @@ export const A2 = () => {
       <br />
       <Text>路線一：淡水開港的黃金歲月。</Text>
       <Text>路線二：尋覓馬偕百年足跡。</Text>
+      <Text>路線三：淡水河線 獨木舟導覽體驗。</Text>
       <br />
       <Text>場次時間、集合地點及報名資訊請洽</Text>
       <Link

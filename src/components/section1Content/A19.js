@@ -10,15 +10,16 @@ export const A19 = () => {
       <Text>※講座場次：5/22(日)、5/28(六)的14:00，每場約2小時。</Text>
       <Text>※講座地點：公司田溪程氏古厝(新北市淡水區新民街一段138巷7號)。</Text>
       <Text>※參加方式：採線上報名，每場次20人。</Text>
+      <Text>※活動已結束※</Text>
 
-      <Link
+      {/* <Link
         fontWeight="600"
         color="umi"
         isExternal
         href="https://docs.google.com/forms/d/1bzQ-pLOPHbytQQmdzM-7qhwVA5zRXAhPWwEHbuedvao/edit"
       >
         活動網頁
-      </Link>
+      </Link> */}
     </>
   );
 };
