@@ -49,6 +49,7 @@ import a14 from '../assets/images/A14.jpg';
 import a15 from '../assets/images/A15.jpg';
 import a16 from '../assets/images/A16.jpg';
 import a17 from '../assets/images/A17.jpg';
+import a18 from '../assets/images/A18.jpg';
 import a19 from '../assets/images/A19.jpg';
 import a20 from '../assets/images/A20.jpg';
 
@@ -236,13 +237,13 @@ const activities = [
     name: '第一屆古蹟文化國際論壇',
     organizer: '新北市立淡水古蹟博物館',
     location: '淡江大學有蓮國際會議廳',
-    image: a6,
+    image: a18,
     modal: <A21 />,
     // isNotice: true,
   },
   {
     month: 5,
-    time: '5/9-5/29 開館時間,5/21（六）、5/22（日）14:00-16:00',
+    time: '5月9日-5月29日 開館時間 \n5月21日、5月22日 14:00-16:00',
     name: '2022 異人茶金 淡水茶旅學',
     organizer: '新北市立圖書館淡水分館',
     location: '新北市立圖書館淡水分館',

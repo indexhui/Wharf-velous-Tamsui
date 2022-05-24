@@ -35,7 +35,7 @@ const CardActivity = props => {
               {props.organizer}
             </Text>
             <Flex justify="space-between">
-              <Text color="grey.700" fontSize="13px">
+              <Text color="grey.700" fontSize="13px" whiteSpace="pre-wrap">
                 {props.time}
               </Text>
             </Flex>
