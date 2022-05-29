@@ -29,6 +29,7 @@ import {
   A20,
   A21,
   A22,
+  A23,
 } from './section1Content';
 
 import a1 from '../assets/images/A1.jpeg';
@@ -52,6 +53,7 @@ import a17 from '../assets/images/A17.jpg';
 import a18 from '../assets/images/A18.jpg';
 import a19 from '../assets/images/A19.jpg';
 import a20 from '../assets/images/A20.jpg';
+import a21 from '../assets/images/A21.jpg';
 
 const activities = [
   {
@@ -249,6 +251,16 @@ const activities = [
     location: '新北市立圖書館淡水分館',
     image: a19,
     modal: <A22 />,
+    // isNotice: true,
+  },
+  {
+    month: 6,
+    time: '6/1-6/29 開館時間 \n6/12、6/18、6/25 10:00-12:00 \n6/17 19:00-21:00',
+    name: '閱讀馬偕',
+    organizer: '新北市立圖書館淡水分館',
+    location: '新北市立圖書館淡水分館、淡水地區、google meet',
+    image: a21,
+    modal: <A23 />,
     // isNotice: true,
   },
   // {
