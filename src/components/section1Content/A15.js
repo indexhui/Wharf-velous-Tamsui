@@ -10,14 +10,15 @@ export const A15 = () => {
       </Text>
       <Text>更詳盡的資訊，請洽新北市國際教育資訊網！</Text>
 
-      <Link
+      {/* <Link
         fontWeight="600"
         color="umi"
         isExternal
         href="https://www.international-education.ntpc.edu.tw/ischool/publish_page/373/"
       >
         活動網頁
-      </Link>
+      </Link> */}
+      <Text>※活動已結束※</Text>
     </>
   );
 };

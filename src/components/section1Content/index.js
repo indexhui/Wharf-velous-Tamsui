@@ -21,3 +21,4 @@ export * from './A20';
 export * from './A21';
 export * from './A22';
 export * from './A23';
+export * from './A24';

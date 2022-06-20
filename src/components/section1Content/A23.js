@@ -15,7 +15,7 @@ export const A23 = () => {
       <Text>
         戶外走讀由旅學堂吳峻毅老師與淡水女路第一屆女性導覽員陳怡瑾共同帶路，搭配真人行動劇，引導聽眾瞭解文化的多元學習「尊重」他人與自己的不同，隨馬偕與聰明發現更多淡水的故事，勇敢、堅定、具韌性的見面會。
       </Text>
-      <Text>活動詳細資訊請洽</Text>
+      {/* <Text>活動詳細資訊請洽</Text>
 
       <Link
         fontWeight="600"
@@ -42,7 +42,8 @@ export const A23 = () => {
         href="https://www.facebook.com/tamsuitraveler2019"
       >
         旅學堂臉書專頁
-      </Link>
+      </Link> */}
+      <Text>※活動已結束※</Text>
     </>
   );
 };
