@@ -63,6 +63,9 @@ function Footer() {
                 <Link href="https://www.library.ntpc.gov.tw/" isExternal>
                   <Text>新北市立圖書館淡水分館</Text>
                 </Link>
+                <Link href="https://www.sec.ntpc.gov.tw/" isExternal>
+                  <Text>新北市政府秘書處</Text>
+                </Link>
                 <Link href="https://www.ntpc.edu.tw/" isExternal>
                   <Text>新北市政府教育局</Text>
                 </Link>
