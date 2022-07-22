@@ -15,7 +15,8 @@ export const A26 = () => {
       <Text>
         7月16日則透過講座現場展演詮釋茶席美學，引領民眾學習如何在享受茶湯的同時也能有美好的喝茶氛圍，讓喝茶變成一件與藝術結合的時尚。每位參加者還能親手做一個環保手工棉布袋茶包，讓喝茶也能很環保。
       </Text>
-      <Text>活動詳細資訊請洽</Text>
+      <Text>※活動已結束※</Text>
+      {/* <Text>活動詳細資訊請洽</Text>
 
       <Link
         fontWeight="600"
@@ -40,7 +41,7 @@ export const A26 = () => {
         href="https://www.facebook.com/tamsuitraveler2019"
       >
         旅學堂臉書專頁
-      </Link>
+      </Link> */}
     </>
   );
 };

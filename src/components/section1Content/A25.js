@@ -17,7 +17,7 @@ export const A25 = () => {
         fontWeight="600"
         color="umi"
         isExternal
-        href="https://www.tshs.ntpc.gov.tw/xceventsnews/cont?xsmsid=0G252620780150430418&sid=0M173681164729510051"
+        href="https://www.tshs.ntpc.gov.tw/xmdoc/cont?xsmsid=0G245656224351531469&sid=0M199393671107774930"
       >
         活動網頁
       </Link>

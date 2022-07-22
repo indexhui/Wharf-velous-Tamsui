@@ -11,15 +11,15 @@ export const A24 = () => {
       </Text>
 
       <Text>其餘系列活動場次、報名及詳細資訊請洽</Text>
-
-      <Link
+      <Text>※活動已結束※</Text>
+      {/* <Link
         fontWeight="600"
         color="umi"
         isExternal
         href="https://www.tshs.ntpc.gov.tw/xceventsnews/cont?xsmsid=0G252620780150430418&bdate=2022-06-22&disp=2&sid=0M166479353789551975"
       >
         活動網頁
-      </Link>
+      </Link> */}
     </>
   );
 };
