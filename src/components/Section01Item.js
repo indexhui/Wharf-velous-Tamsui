@@ -313,7 +313,7 @@ const activities = [
   {
     month: [8, 9, 10],
     name: '「淡水開港後唯一勝事：海上只剩下船」特展',
-    time: '8月2日-10月30日 每日開館時間',
+    time: '8月上旬-10月30日 每日開館時間',
     organizer: '新北市立淡水古蹟博物館',
     location: '滬水一方藝文空間5F',
     image: a26,
