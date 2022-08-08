@@ -304,7 +304,7 @@ const activities = [
   {
     month: 8,
     name: '2022  NTPC Appreciation Tour',
-    time: '8月19日',
+    time: '8月21日',
     organizer: '新北市政府秘書處',
     location: '淡水地區',
     image: a25,
@@ -313,7 +313,7 @@ const activities = [
   {
     month: [8, 9, 10],
     name: '「淡水開港後唯一勝事：海上只剩下船」特展',
-    time: '8月上旬-10月30日 每日開館時間',
+    time: '8月12日-10月30日 每日開館時間',
     organizer: '新北市立淡水古蹟博物館',
     location: '滬水一方藝文空間5F',
     image: a26,
