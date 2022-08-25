@@ -35,6 +35,7 @@ import {
   A26,
   A27,
   A28,
+  A29,
 } from './section1Content';
 
 import a1 from '../assets/images/A1.jpeg';
@@ -64,6 +65,7 @@ import a23 from '../assets/images/A23.jpg';
 import a24 from '../assets/images/A24.jpg';
 import a25 from '../assets/images/A25.jpg';
 import a26 from '../assets/images/A26.jpg';
+import a27 from '../assets/images/A27.jpg';
 
 const activities = [
   {
@@ -318,6 +320,15 @@ const activities = [
     location: '滬水一方藝文空間5F',
     image: a26,
     modal: <A28 />,
+  },
+  {
+    month: [8, 9, 10],
+    name: '馬偕故事藝廊',
+    location: '淡水馬偕街',
+    time: '公共空間',
+    organizer: '淡水區公所',
+    image: a27,
+    modal: <A29 />,
   },
   // {
   //   month: 6,
