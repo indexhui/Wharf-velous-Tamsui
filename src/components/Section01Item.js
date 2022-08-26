@@ -35,6 +35,7 @@ import {
   A26,
   A27,
   A28,
+  A29,
 } from './section1Content';
 
 import a1 from '../assets/images/A1.jpeg';
@@ -64,6 +65,7 @@ import a23 from '../assets/images/A23.jpg';
 import a24 from '../assets/images/A24.jpg';
 import a25 from '../assets/images/A25.jpg';
 import a26 from '../assets/images/A26.jpg';
+import a27 from '../assets/images/A27.jpg';
 
 const activities = [
   {
@@ -78,8 +80,8 @@ const activities = [
     image: a1,
   },
   {
-    month: [3, 4, 5, 6, 7],
-    time: '3月至7月',
+    month: [3, 4, 5, 6, 7, 8, 9, 10],
+    time: '3月至10月',
     name: '港動淡水文化行旅',
     organizer: '新北市立淡水古蹟博物館',
     location: '淡水地區',
@@ -229,7 +231,7 @@ const activities = [
     month: [5, 6, 7, 8, 9, 10],
     name: '滬尾講堂',
     organizer: '新北市立淡水古蹟博物館',
-    time: '8月20日、9月17日、10月15日,1400-16:00',
+    time: '9月17日、10月15日,1400-16:00',
     location: '淡水海關碼頭、淡水木下靜涯舊居',
     modal: <A18 />,
     image: a16,
@@ -318,6 +320,15 @@ const activities = [
     location: '滬水一方藝文空間5F',
     image: a26,
     modal: <A28 />,
+  },
+  {
+    month: [7, 8, 9, 10, 11, 12],
+    name: '馬偕故事藝廊',
+    location: '淡水馬偕街',
+    time: '公共空間',
+    organizer: '淡水區公所',
+    image: a27,
+    modal: <A29 />,
   },
   // {
   //   month: 6,

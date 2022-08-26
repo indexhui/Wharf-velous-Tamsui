@@ -21,6 +21,14 @@ export const A25 = () => {
       >
         活動網頁
       </Link>
+      <Link
+        fontWeight="600"
+        color="umi"
+        isExternal
+        href="https://youtu.be/Ehmmv9z21CM"
+      >
+        介紹影片
+      </Link>
     </>
   );
 };
