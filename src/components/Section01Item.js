@@ -36,6 +36,7 @@ import {
   A27,
   A28,
   A29,
+  A30,
 } from './section1Content';
 
 import a1 from '../assets/images/A1.jpeg';
@@ -66,6 +67,7 @@ import a24 from '../assets/images/A24.jpg';
 import a25 from '../assets/images/A25.jpg';
 import a26 from '../assets/images/A26.jpg';
 import a27 from '../assets/images/A27.jpg';
+import a28 from '../assets/images/A28.jpg';
 
 const activities = [
   {
@@ -329,6 +331,15 @@ const activities = [
     organizer: '淡水區公所',
     image: a27,
     modal: <A29 />,
+  },
+  {
+    month: [7, 8, 9, 10, 11, 12],
+    name: '「噶瑪蘭的牧者—馬偕牧師傳教在宜蘭」特展',
+    location: '滬尾偕醫館',
+    time: '9月17日至112年12月31日\n滬尾偕醫館開放時間',
+    organizer: '台灣基督長老教會淡水教會、宜蘭縣史館',
+    image: a28,
+    modal: <A30 />,
   },
   // {
   //   month: 6,
