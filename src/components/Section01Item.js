@@ -37,6 +37,8 @@ import {
   A28,
   A29,
   A30,
+  A31,
+  A32,
 } from './section1Content';
 
 import a1 from '../assets/images/A1.jpeg';
@@ -68,7 +70,8 @@ import a25 from '../assets/images/A25.jpg';
 import a26 from '../assets/images/A26.jpg';
 import a27 from '../assets/images/A27.jpg';
 import a28 from '../assets/images/A28.jpg';
-
+import a29 from '../assets/images/A29.png';
+import a30 from '../assets/images/A30.jpg';
 const activities = [
   {
     month: 3,
@@ -340,6 +343,24 @@ const activities = [
     organizer: '台灣基督長老教會淡水教會、宜蘭縣史館',
     image: a28,
     modal: <A30 />,
+  },
+  {
+    month: [11],
+    name: '星宇展─馬偕150週年紀念11月成果展',
+    location: '新北市立圖書館淡水分館',
+    time: '111/11/1-111/11/27（11/24、11/26休館不開放）8:30-17:00',
+    organizer: '台灣星奇兒創藝協會',
+    image: a29,
+    modal: <A31 />,
+  },
+  {
+    month: [11],
+    name: 'XOXO我們與自然的距離\n2022新北市美術館移地行動X435聚落藝術家年度展覽',
+    location: '淡水海關碼頭B棟倉庫、戶外草坪區',
+    time: '10/8(六)-12/6(二)每日開館時間',
+    organizer: '新北市美術館',
+    image: a30,
+    modal: <A32 />,
   },
   // {
   //   month: 6,

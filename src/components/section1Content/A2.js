@@ -18,15 +18,15 @@ export const A2 = () => {
         ※7月份因「光音淡水」系列活動，暫停辦理，8月活動請待下列網址公告。
       </Text> */}
       <br />
-      <Text>場次時間、集合地點及報名資訊請洽</Text>
-      <Link
+      <Text>活動已結束</Text>
+      {/* <Link
         fontWeight="600"
         color="umi"
         isExternal
         href="https://www.tshs.ntpc.gov.tw/xceventsnews/cont?xsmsid=0G252620780150430418&sid=0L322422145908368005"
       >
         活動網頁
-      </Link>
+      </Link> */}
     </>
   );
 };
