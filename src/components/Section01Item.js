@@ -70,7 +70,7 @@ import a25 from '../assets/images/A25.jpg';
 import a26 from '../assets/images/A26.jpg';
 import a27 from '../assets/images/A27.jpg';
 import a28 from '../assets/images/A28.jpg';
-import a29 from '../assets/images/A29.png';
+import a29 from '../assets/images/A29.jpg';
 import a30 from '../assets/images/A30.jpg';
 const activities = [
   {
