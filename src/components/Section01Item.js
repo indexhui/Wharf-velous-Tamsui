@@ -72,6 +72,9 @@ import a27 from '../assets/images/A27.jpg';
 import a28 from '../assets/images/A28.jpg';
 import a29 from '../assets/images/A29.jpg';
 import a30 from '../assets/images/A30.jpg';
+import a31 from '../assets/images/A31.jpg';
+import a32 from '../assets/images/A32.png';
+
 const activities = [
   {
     month: 3,
