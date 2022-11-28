@@ -24,10 +24,10 @@ const options = [
   //   value: 6,
   //   label: '六月',
   // },
-  {
-    value: 7,
-    label: '七月',
-  },
+  // {
+  //   value: 7,
+  //   label: '七月',
+  // },
   {
     value: 8,
     label: '八月',
@@ -47,6 +47,14 @@ const options = [
   {
     value: 12,
     label: '十二月',
+  },
+  {
+    value: 1,
+    label: '一月',
+  },
+  {
+    value: 2,
+    label: '二月',
   },
 ];
 

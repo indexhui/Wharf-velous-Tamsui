@@ -39,6 +39,8 @@ import {
   A30,
   A31,
   A32,
+  A33,
+  A34,
 } from './section1Content';
 
 import a1 from '../assets/images/A1.jpeg';
@@ -364,6 +366,24 @@ const activities = [
     organizer: '新北市美術館',
     image: a30,
     modal: <A32 />,
+  },
+  {
+    month: [11, 12, 1, 2],
+    name: '「2022藝起港動」新北市國際藝術村成果展',
+    location: '滬水一方藝文空間5樓',
+    time: '111/11/25(五)-112/2/28(二)每日開館時間',
+    organizer: '新北市立淡水古蹟博物館',
+    image: a31,
+    modal: <A33 />,
+  },
+  {
+    month: [12, 1, 2],
+    name: '「2022光映淡水」',
+    location: '淡水地區',
+    time: '111/12/17(六)-112/1/2(一)',
+    organizer: '新北市美術館',
+    image: a32,
+    modal: <A34 />,
   },
   // {
   //   month: 6,
