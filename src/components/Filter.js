@@ -48,14 +48,14 @@ const options = [
     value: 12,
     label: '十二月',
   },
-  {
-    value: 1,
-    label: '一月',
-  },
-  {
-    value: 2,
-    label: '二月',
-  },
+  // {
+  //   value: 1,
+  //   label: '一月',
+  // },
+  // {
+  //   value: 2,
+  //   label: '二月',
+  // },
 ];
 
 const Filter = props => {
