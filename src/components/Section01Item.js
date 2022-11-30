@@ -381,7 +381,7 @@ const activities = [
     name: '「2022光映淡水」',
     location: '淡水地區',
     time: '111/12/17(六)-112/1/2(一)',
-    organizer: '新北市美術館',
+    organizer: '新北市立淡水古蹟博物館',
     image: a32,
     modal: <A34 />,
   },
